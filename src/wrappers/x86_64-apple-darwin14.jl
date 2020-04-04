@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libwcs`
-const libwcs_splitpath = ["lib", "libwcs.6.4.dylib"]
+const libwcs_splitpath = ["lib", "libwcs.7.1.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libwcs_path = ""
@@ -17,18 +17,20 @@ libwcs_path = ""
 libwcs_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libwcs = "@rpath/libwcs.6.4.dylib"
+const libwcs = "@rpath/libwcs.7.1.dylib"
 
 
 """
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"WCS")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    global libwcs_path = abspath(joinpath(artifact"WCS", libwcs_splitpath...))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    global libwcs_path = normpath(joinpath(artifact_dir, libwcs_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
