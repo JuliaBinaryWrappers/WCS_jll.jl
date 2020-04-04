@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libwcs`
-const libwcs_splitpath = ["lib", "libwcs.7.1.dylib"]
+const libwcs_splitpath = ["lib", "libwcs.7.2.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libwcs_path = ""
@@ -17,7 +17,7 @@ libwcs_path = ""
 libwcs_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libwcs = "@rpath/libwcs.7.1.dylib"
+const libwcs = "@rpath/libwcs.7.2.dylib"
 
 
 """
