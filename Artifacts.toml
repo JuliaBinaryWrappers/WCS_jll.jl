@@ -1,115 +1,115 @@
 [[WCS]]
 arch = "aarch64"
-git-tree-sha1 = "7f8aa500fdd1490611071da11b4f2ac37f608937"
+git-tree-sha1 = "2b50015bf53a37451a08c6ab850f22b59ebf90a3"
 libc = "glibc"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "f740e9ab0d138be6f5c2be74a9ffb2e39e8c68fd00b70ff2e1d7c49dcd0d6668"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "3dec41ae650235253656e56fd582461aa738c7ff9b6cf58a2da666ca83b79cfb"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.aarch64-linux-gnu.tar.gz"
 [[WCS]]
 arch = "aarch64"
-git-tree-sha1 = "233a95b73c399d8affba8d7dfb379d14acdc41da"
+git-tree-sha1 = "e8f7d33d898d27f46a85198567922c2e7c20640b"
 libc = "musl"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "1c99c71e8a67155f1adce0c14c3c51ac6b204ff0630d2e95dfe91aa8f4faf0d2"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.aarch64-linux-musl.tar.gz"
+    sha256 = "60f3c1071229e1f180b92f532a539fcfc359bbd8f22bd5deccd298ed08a8761d"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.aarch64-linux-musl.tar.gz"
 [[WCS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "59eb6daea82d6b0038d71061d7206760586d9548"
+git-tree-sha1 = "9a1fb415649cd8a5215965994f9396f7350f34fa"
 libc = "glibc"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "f2fae5410c2034c82489d0c707c090a2936f8cd2b6fb955d1e25ef1b4ab46a89"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "1f89c1ee77f64cfc00293c550c624faaed70717ac1a491eea8c1ed3cda84ceeb"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.armv7l-linux-gnueabihf.tar.gz"
 [[WCS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "aed6fad31b5526a4e8ce403dcfb5a8a79b1e07fc"
+git-tree-sha1 = "85acaba735b2bf5894e268c726f6c57162f55b46"
 libc = "musl"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "6918c052845b42a9e4e1a0e6c851937154a51b3e4e59cc8f0f6fa2dbcf61d371"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "29d1dc95d0bd318f3682bc6886d01bd79ea4f57e70ceefe376c59c0772a4a3c6"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.armv7l-linux-musleabihf.tar.gz"
 [[WCS]]
 arch = "i686"
-git-tree-sha1 = "f1ceb82defed7a9b00cb1a23d4cbd4dcc3c169fe"
+git-tree-sha1 = "49ecf2629eb4e9d0768f9f179a5156b674f83c60"
 libc = "glibc"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "9da6f9ffa0083b513a665aa967bf5ab651f4ba0f2491752bfb095e28fc3f1c31"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.i686-linux-gnu.tar.gz"
+    sha256 = "59051bb50a7006a352c48c443480daf88538a88924c78c497fabf8cf650f2294"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.i686-linux-gnu.tar.gz"
 [[WCS]]
 arch = "i686"
-git-tree-sha1 = "4418909ec6b2d30fb9946ddff999c36454fc3f34"
+git-tree-sha1 = "efb5b7e408be25714f7d52377b00dd195c7b6b37"
 libc = "musl"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "33fa9ab774cef597db2d1a76765714ab1f7fb9ef925099cde815fa8f5c3c7e6c"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.i686-linux-musl.tar.gz"
+    sha256 = "eeedba683cd56ff9d6cfbfbbcd4d3a15f6f2b147f21edcd3e63896752c01a321"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.i686-linux-musl.tar.gz"
 [[WCS]]
 arch = "i686"
-git-tree-sha1 = "8299987986d537e6c8483686ca3193cc6597db2d"
+git-tree-sha1 = "6063667fa09616b433b8ed62b09c7689d6b62c28"
 os = "windows"
 
     [[WCS.download]]
-    sha256 = "edb874a3811377af82218a6788fd183134d064d36f916c5eca946a6640850036"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.i686-w64-mingw32.tar.gz"
+    sha256 = "73e3c9943b2b2f0564e5114d9b339e9424f409c2ede61cc437c475efdaf0dc35"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.i686-w64-mingw32.tar.gz"
 [[WCS]]
 arch = "powerpc64le"
-git-tree-sha1 = "2b7ed7ea8a9d4f83f11b14d2456e13b6886e9905"
+git-tree-sha1 = "17394578a2dc05cad7b5527e8c22e95e4637b204"
 libc = "glibc"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "626e343c47e143fcca4e58995d371bb50ba6e77e7a725c47c6b10cfe6fc6f284"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "a70a00a0b225f7326cac2c80d95ee30d36addb771a943dc5b570003a4cafdaab"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.powerpc64le-linux-gnu.tar.gz"
 [[WCS]]
 arch = "x86_64"
-git-tree-sha1 = "a88ada840fb58ed6b326b0efefecd7de723d355a"
+git-tree-sha1 = "e278db0f7e62bcbc259e871c0fa39e405af864ed"
 os = "macos"
 
     [[WCS.download]]
-    sha256 = "dfab68e6753d9aef48e0395ab64a5025259f8fab0639b1dee007ba9d7bd2a214"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "2b44b06b02e19bf7d497de2c6d42534a15edcd081f835ce4d6f0e562d355044b"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.x86_64-apple-darwin.tar.gz"
 [[WCS]]
 arch = "x86_64"
-git-tree-sha1 = "1397114e40a32cc63314ffffa6618686a39d5b49"
+git-tree-sha1 = "b07454cd3e9707f663a195bf6018e6d477286462"
 libc = "glibc"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "d070a7aa08b9b2b43b0ff2cfcce7c4049bbb7eb63a4f29a6b782c88b12981de8"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "eac331e3a91fe329b1672599387208753c4d99a792314907b2e49e095d811326"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.x86_64-linux-gnu.tar.gz"
 [[WCS]]
 arch = "x86_64"
-git-tree-sha1 = "56543c92fb8c56526a4d966492935c9679ff8644"
+git-tree-sha1 = "7186ae756c40a0294e5d9898f833b0ac202e3154"
 libc = "musl"
 os = "linux"
 
     [[WCS.download]]
-    sha256 = "89956479cc2765fb7e71747b27b5af440d1d3175615133451a5040c4565adead"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.x86_64-linux-musl.tar.gz"
+    sha256 = "f2d7ea82a6177f0de578a37e46b5d91fceb56e752fb8939a6cedcf87c5799914"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.x86_64-linux-musl.tar.gz"
 [[WCS]]
 arch = "x86_64"
-git-tree-sha1 = "bf216058b9caf0712f849518cf8fc50da9a156c2"
+git-tree-sha1 = "d148d4823b4532ceda2b5507c8d60c61f32bcbc5"
 os = "freebsd"
 
     [[WCS.download]]
-    sha256 = "d44590e1b62bdee8098fd126ec14b37bf7b0c906e06fb47eeb4b47f25a052d79"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "66f5508cdca817315d8be5eb52636b7b2386617da752ac0af129dbc49341861b"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.x86_64-unknown-freebsd.tar.gz"
 [[WCS]]
 arch = "x86_64"
-git-tree-sha1 = "d7482762c86769a4ef2de77aefd5ed3667b277db"
+git-tree-sha1 = "cc87276e42d819abf56acfef41cf66fbd3bcaac8"
 os = "windows"
 
     [[WCS.download]]
-    sha256 = "6454d3c9d6bf68c2fbac18f695fdb1dabd5b02d88b25dc8e3272c26a187353b0"
-    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.3.1+0/WCS.v7.3.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "24140cca078cdc23f15d0057f1a6f408b23da63551c2fad29ac6b1f09dde37ef"
+    url = "https://github.com/JuliaBinaryWrappers/WCS_jll.jl/releases/download/WCS-v7.4.0+0/WCS.v7.4.0.x86_64-w64-mingw32.tar.gz"
