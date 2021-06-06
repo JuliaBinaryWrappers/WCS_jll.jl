@@ -2,12 +2,12 @@
 export libwcs
 
 JLLWrappers.@generate_wrapper_header("WCS")
-JLLWrappers.@declare_library_product(libwcs, "@rpath/libwcs.7.5.dylib")
+JLLWrappers.@declare_library_product(libwcs, "@rpath/libwcs.7.6.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libwcs,
-        "lib/libwcs.7.5.dylib",
+        "lib/libwcs.7.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
