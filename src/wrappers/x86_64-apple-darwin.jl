@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libwcs,
-        "lib/libwcs.7.6.dylib",
+        "lib/libwcs.7.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
